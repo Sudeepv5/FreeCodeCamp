@@ -1,0 +1,54 @@
+.center
+{
+    text-align: center;
+    position: relative;
+	margin: 0 auto;
+    padding: 30px;
+    padding-top: 80px;
+}
+#header
+{
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 28px;
+}
+#quote-ground
+{
+    background-color: black;
+    border-radius: 10px;
+    width: 45%;
+    height: 250px;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 40px;
+    position: static;
+}
+#quote
+{
+    font-size: 24px;
+}
+#author
+{
+    font-size: 18px;
+}
+body
+{
+    background-color: #292929;
+}
+#enlighten
+{
+    padding: 10px;
+    background-color:#fa0;
+    border-radius: 5px;
+    border-style: none;
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.tware
+{
+    color: #00aced;
+    font-size: 32px;
+}
