@@ -3,40 +3,54 @@
     text-align: center;
     position: relative;
 	margin: 0 auto;
-    padding: 30px;
-    padding-top: 80px;
+    padding: 10px;
 }
 #header
 {
     color: white;
     font-size: 28px;
+    padding-top: 50px;
 }
 
 body
 {
-    background-color: #292929;
+    background-color: white;
     font-family: 'Alegreya Sans', sans-serif;
-    color: white;
+    color: #292929;
 }
 
 #temp
 {
-    font-size: 48px;
+    font-size: 100px;
 }
-#comment
+#comment, #location
 {
     font-size: 32px;
 }
 
-#f-toggle, #c-toggle
+
+.toggle
 {
-    padding: 10px;
+    padding: 3px;
     background-color:#fa0;
-    border-radius: 5px;
+    border-radius: 1px;
     border-style: none;
     position: relative;
     color: white;
-    font-size: 24px;
+    font-size: 14px;
     font-family: 'Alegreya Sans', sans-serif;
+    background-color:#C97;
+    color:beige;
+}
+
+#d-toggle
+{
+    font-size: 20px;
+}
+
+.active
+{
+    background-color:#fa0;
+    color: white;
 }
 

@@ -9,14 +9,16 @@
 <link rel="stylesheet" href="style.css" type="text/css">    
 </head>
 <body>
-<div id="header" class="center">Local Weather</div>
-<div class="center">
+<div id="spinner" class="center"><img src="media/blob.gif"></div>
+<div id="panel" class="center">
 <div id="location" ></div>
-<div id="w-icon"></div><div id="temp"></div>
-<button id="f-toggle">^F</button>
-<button id="c-toggle">^C</button><br><br>
-<div id="comment"></div> 
-
+<div id="temp"></div>
+<button id="f-toggle" class="toggle">F</button>
+<button id="c-toggle" class="toggle active">C</button>
+<br><br>
+<div id="comment"></div>
+<a id="d-toggle" title="Detailed Forecast"><i class="fa fa-info-circle"></i></a>
+<div id="details" style="visible:false;"></div>
 </div>
 </body>
 </html>
